@@ -7,7 +7,7 @@ function calcular(){
         alert("Digite números validos")
         return;
     }
-
+    
     res.innerHTML = n1 + n2
 }
 
