@@ -15,7 +15,8 @@ function changeImage(){
         imagem.setAttribute("src", "https://cdn-icons-png.flaticon.com/512/3135/3135768.png");
         document.getElementById("data").textContent = formatarData(registro);
         btn.style.backgroundColor = "aqua";
-        btn.style.borderColor = "aqua"
+        btn.style.borderColor = "aqua";
+        
     }else{
         imagem.setAttribute("src", "https://avatars.githubusercontent.com/u/114186739?v=4");
         document.getElementById("data").textContent = formatarData(registro);
