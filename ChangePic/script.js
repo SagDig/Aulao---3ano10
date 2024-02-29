@@ -12,17 +12,19 @@ function changeImage(){
     console.log(dt)
 
     if(html.classList.contains("light")){
-        imagem.setAttribute("src", "https://cdn-icons-png.flaticon.com/512/3135/3135768.png");
+        imagem.setAttribute("src", "../imagens/img1.png");
         document.getElementById("data").textContent = formatarData(registro);
-        btn.style.backgroundColor = "aqua";
-        btn.style.borderColor = "aqua";
-        
-    }else{
-        imagem.setAttribute("src", "https://avatars.githubusercontent.com/u/114186739?v=4");
-        document.getElementById("data").textContent = formatarData(registro);
-        btn.style.backgroundColor = "red";
-        btn.style.borderColor = "red";
+        btn.style.color = "darkcyan";
+        btn.style.borderColor = "darkcyan";
+        document.getElementById("colorTxt").style.color = "#ffff"
 
+
+    }else{
+        imagem.setAttribute("src", "../imagens/imagem2.jpg");
+        document.getElementById("data").textContent = formatarData(registro);
+        btn.style.color = "aqua";
+        btn.style.borderColor = "aqua";
+        document.getElementById("colorTxt").style.color = "aqua"
     }
 
 
