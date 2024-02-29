@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+html{
+    background-color: black;
+    color: aliceblue;
+}
+
+img{
+    border-radius: 999px;
+}
+
+.btn{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+}
